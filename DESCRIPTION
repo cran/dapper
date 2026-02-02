@@ -1,6 +1,6 @@
 Package: dapper
 Title: Data Augmentation for Private Posterior Estimation
-Version: 1.0.1
+Version: 1.1.0
 Authors@R: 
     person("Kevin", "Eng", , "kevine1221@gmail.com", role = c("aut", "cre", "cph"))
 Description: A data augmentation based sampler for conducting privacy-aware Bayesian inference. The dapper_sample()
@@ -17,7 +17,7 @@ Description: A data augmentation based sampler for conducting privacy-aware Baye
              Canonne et al. (2020) <doi:10.48550/arXiv.2004.00010>.
 License: MIT + file LICENSE
 Encoding: UTF-8
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 URL: https://github.com/mango-empire/dapper
 BugReports: https://github.com/mango-empire/dapper/issues
 Suggests: testthat (>= 3.0.0)
@@ -25,8 +25,8 @@ Config/testthat/edition: 3
 Imports: bayesplot, checkmate, furrr, memoise, posterior, progressr,
         stats
 NeedsCompilation: no
-Packaged: 2024-10-29 04:03:27 UTC; kevin
+Packaged: 2026-02-01 22:27:22 UTC; kevin
 Author: Kevin Eng [aut, cre, cph]
 Maintainer: Kevin Eng <kevine1221@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-10-29 05:10:02 UTC
+Date/Publication: 2026-02-02 06:30:58 UTC
