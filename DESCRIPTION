@@ -1,6 +1,6 @@
 Package: dapper
 Title: Data Augmentation for Private Posterior Estimation
-Version: 1.1.0
+Version: 1.1.1
 Authors@R: 
     person("Kevin", "Eng", , "kevine1221@gmail.com", role = c("aut", "cre", "cph"))
 Description: A data augmentation based sampler for conducting privacy-aware Bayesian inference. The dapper_sample()
@@ -20,13 +20,14 @@ Encoding: UTF-8
 RoxygenNote: 7.3.3
 URL: https://github.com/mango-empire/dapper
 BugReports: https://github.com/mango-empire/dapper/issues
-Suggests: testthat (>= 3.0.0)
+Suggests: ggplot2, knitr, rmarkdown, testthat (>= 3.0.0)
+VignetteBuilder: knitr
 Config/testthat/edition: 3
 Imports: bayesplot, checkmate, furrr, memoise, posterior, progressr,
         stats
 NeedsCompilation: no
-Packaged: 2026-02-01 22:27:22 UTC; kevin
+Packaged: 2026-09-06 05:18:56 UTC; kevin
 Author: Kevin Eng [aut, cre, cph]
 Maintainer: Kevin Eng <kevine1221@gmail.com>
 Repository: CRAN
-Date/Publication: 2026-02-02 06:30:58 UTC
+Date/Publication: 2026-09-06 13:00:10 UTC
